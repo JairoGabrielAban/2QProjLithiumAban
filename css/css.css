@@ -1,0 +1,47 @@
+/********************
+
+CSS Styles For index.html
+
+********************/
+
+body {
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 15%;
+	martgin-left: 15%;
+	margin: auto;
+	width: 75%;
+	text-align: center;
+	border: 2px solid;
+	border-color: blue;
+}
+
+h1 {
+	margin: auto;
+	background: #D3D3D3;
+	margin-top: 20px;
+	padding: 0;
+}
+			
+h2 {
+	background: #D3D3D3;
+	font-style: italic;
+	margin: 0;
+	padding: 0;
+}
+			
+#main-text {
+	font-family: monospace;
+}			
+			
+#second-text {
+	font-family: monospace;
+	position: relative;
+	left: 100px;	
+	margin-bottom: 0;
+}
+			
+#video {
+	margin-top: 0;
+}
+			
