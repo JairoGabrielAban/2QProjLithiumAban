@@ -5,43 +5,95 @@ CSS Styles For index.html
 ********************/
 
 body {
-	margin-top: 0;
-	margin-bottom: 0;
-	margin-right: 15%;
-	martgin-left: 15%;
-	margin: auto;
-	width: 75%;
-	text-align: center;
-	border: 2px solid;
-	border-color: blue;
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 0.25fr 7fr auto;
+    margin: 0 0 0 0;
+}
+  
+header {
+    background:#014421;
 }
 
-h1 {
-	margin: auto;
-	background: #D3D3D3;
-	margin-top: 20px;
-	padding: 0;
+footer {
+    background:#014421;
+    padding: 10px;
+    text-align: center;
 }
-			
-h2 {
-	background: #D3D3D3;
-	font-style: italic;
-	margin: 0;
-	padding: 0;
+
+.section-left {
+    float: left;
+    width: 45%;
+    padding-top: 10px;
+	margin-top: 60px;
 }
-			
-#main-text {
-	font-family: monospace;
-}			
-			
-#second-text {
-	font-family: monospace;
-	position: relative;
-	left: 100px;	
-	margin-bottom: 0;
+
+.section-right {
+    float: right;
+    width: 48%;
+    padding-top: 10px;
+	padding-bottom: 100px;
+	margin: 60px;
+	border-bottom: 2px dashed;
+	border-color: #006400;
 }
-			
-#video {
-	margin-top: 0;
+
+.content {
+    padding: 10px;
+    text-align: center;
 }
-			
+
+.environment-pic {
+	width: 800px;
+	border: 2px solid;
+	border-color: #5C4033;
+}	
+
+.left-footer {
+    float: left;
+    width: 40%;
+    color: white;
+	font-family: Segoe Print;
+}
+
+.right-footer {
+    float: right;
+    width: 20%;
+	background: #613B16;
+	height: 100%;
+	border: 1px solid;
+	border-color: white;
+	border-radius: 20px;
+}
+
+
+.main-text {
+    padding: 5px;
+}
+
+.title {
+	width:
+	font-weight: Bold;
+	font-size: 25px;
+	font-family: MV Boli;
+	color: #4B371C;
+	margin-bottom: 50px;
+	border-bottom: 2px solid;
+	border-top: 2px solid;
+	border-color: #006400;
+	
+}
+
+.paragraph {
+	text-align: justify;
+	font-size: 20px;
+	font-family: Garamond, serif;
+	
+}
+
+.next{
+	color: white;
+	font-family: Segoe Print;
+	font-size: 55px;
+}	
+	
