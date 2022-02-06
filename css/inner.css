@@ -1,0 +1,113 @@
+/********************
+
+CSS Styles For inner.html
+
+********************/
+
+body {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 0.25fr 7fr auto;
+    margin: 0 0 0 0;
+}
+  
+
+header {
+    background:#014421;
+}
+
+footer {
+    background:#014421;
+    padding: 10px;
+    text-align: center;
+}
+
+.text-title{
+	margin-top: 0px; 
+	margin-bottom: 0px;
+}	
+
+.content {
+	margin: auto;
+    padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 30px;
+    text-align: center;
+}
+
+.widget {
+	background: #613B16;
+	margin: auto;
+	padding: 15px;
+	margin-bottom: 30px;
+    text-align: center;
+	border: 5px solid;
+	border-color: #2faa19;
+	border-radius: 20px;
+	
+}	
+
+.nature-pic{
+	width: 600px;
+	margin-bottom: 30px;
+	border: 5px solid;
+	border-color: #5C4033;
+	
+}	
+
+
+.left-footer {
+    float: left;
+    width: 40%;
+    color: white;
+	font-family: Segoe Print;
+	font-size: 15px;
+}
+
+.right-footer {
+    float: right;
+    width: 20%;
+	background: #613B16;
+	height: 100%;
+	border: 1px solid;
+	border-color: white;
+	border-radius: 20px;
+}
+
+
+.main-text {
+    padding: 5px;
+}
+
+.title {
+	font-weight: Bold;
+	font-size: 25px;
+	font-family: MV Boli;
+	color: #4B371C;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	border-bottom: 2px solid;
+	border-top: 2px solid;
+	border-color: #006400;
+	
+}
+
+.paragraph {
+	margin: auto;
+	text-align: justify;
+	font-size: 20px;
+	font-family: Garamond, serif;
+	color: white;
+	
+	
+}
+
+.previous{
+	color: white;
+	font-family: Segoe Print;
+	font-size: 50px;
+	
+}	
+
+.bold {
+	font-weight: bold;
