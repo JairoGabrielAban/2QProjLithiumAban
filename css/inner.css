@@ -1,3 +1,4 @@
+Marc Jermaine Pontiveros
 /********************
 
 CSS Styles For inner.html
@@ -58,20 +59,36 @@ footer {
 
 .left-footer {
     float: left;
-    width: 40%;
+    width: 20%;
+    color: white;
+    background: #613B16;
+	font-family: Segoe Print;
+	font-size: 15px;
+    border: 1px solid;
+	border-color: white;
+	border-radius: 20px;
+
+}
+
+.ref {
+    width: 60%;
+    margin: auto;
     color: white;
 	font-family: Segoe Print;
 	font-size: 15px;
+
 }
 
 .right-footer {
     float: right;
     width: 20%;
 	background: #613B16;
-	height: 100%;
 	border: 1px solid;
 	border-color: white;
 	border-radius: 20px;
+    font-family: Segoe Print;
+	font-size: 15px;
+
 }
 
 
@@ -105,9 +122,16 @@ footer {
 .previous{
 	color: white;
 	font-family: Segoe Print;
-	font-size: 50px;
+	font-size: 25px;
 	
+}	
+
+.next{
+	color: white;
+	font-family: Segoe Print;
+	font-size: 25px;
 }	
 
 .bold {
 	font-weight: bold;
+}
